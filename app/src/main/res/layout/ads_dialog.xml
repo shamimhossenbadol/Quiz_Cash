@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingVertical="20dp"
+    tools:ignore="UseCompoundDrawables">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_marginTop="-20dp"
+        android:contentDescription="@string/todo"
+        android:src="@drawable/watch_ads" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/cambria_bold"
+        android:paddingHorizontal="20dp"
+        android:justificationMode="inter_word"
+        android:gravity="center"
+        android:text="You've Answered\n5 Questions Incorrectly"
+        android:textColor="#FF1100"
+        android:textSize="23sp"
+        tools:ignore="HardcodedText,UnusedAttribute" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/cambria_regular"
+        android:paddingHorizontal="20dp"
+        android:gravity="center"
+        android:layout_marginBottom="10dp"
+        android:justificationMode="inter_word"
+        android:text="To continue playing the quiz, click on 'Watch Video Ads' to view an advertisement. Alternatively, click on 'Return Home Page' to exit the quiz."
+        android:textColor="@color/black"
+        android:textSize="17sp"
+        tools:ignore="HardcodedText,UnusedAttribute" />
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/ads"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginVertical="10dp"
+        app:cardBackgroundColor="#FF9800">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:drawablePadding="10sp"
+            android:fontFamily="@font/cambria_bold"
+            android:gravity="center"
+            android:text="Watch Video Ads"
+            android:textColor="@color/white"
+            android:textSize="23sp"
+            app:drawableStartCompat="@drawable/baseline_video_library_24"
+            tools:ignore="HardcodedText" />
+
+    </com.google.android.material.card.MaterialCardView>
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/home"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:layout_marginHorizontal="20dp"
+        app:cardBackgroundColor="#4CAF50">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:drawablePadding="10dp"
+            android:fontFamily="@font/cambria_bold"
+            android:gravity="center"
+            android:text="Return Home Page"
+            android:textColor="@color/white"
+            android:textSize="23sp"
+            app:drawableStartCompat="@drawable/baseline_home_24"
+            tools:ignore="HardcodedText" />
+
+    </com.google.android.material.card.MaterialCardView>
+
+</LinearLayout>

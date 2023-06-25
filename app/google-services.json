@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "387133183051",
+    "project_id": "quiz-cash-6ae0f",
+    "storage_bucket": "quiz-cash-6ae0f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:387133183051:android:6b94d67c5ce1737718e9ce",
+        "android_client_info": {
+          "package_name": "com.enigma.quiz_cash"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "387133183051-oelef0g4m49o4unb6sjbil4s2785v1os.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDR8DpMI42fBDCysSdYBCNspw0GnLIqnC0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "387133183051-oelef0g4m49o4unb6sjbil4s2785v1os.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

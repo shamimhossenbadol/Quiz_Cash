@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:contentDescription="@string/todo"
+        android:src="@drawable/rules" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/cambria_bold"
+        android:gravity="center"
+        android:text="Must Follow These Instructions"
+        android:textColor="#1C3F6F"
+        android:textSize="18sp"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginHorizontal="10dp"
+        android:background="#F29FA3" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginHorizontal="10dp"
+        android:paddingVertical="10dp"
+        android:fontFamily="@font/cambria_regular"
+        android:text="1. Use a VPN app while playing quizzes.\n2. Keep internet on while playing quiz.\n3. Minimum withdrawal 5000 coins.\n4. The exchange rate is 1000 coins = $1.\n5. Get 100 coins per referral (both users).\n6. Earn 5 lives per video ad.\n7. Payment via PayPal and Payoneer.\n8. Installation is mandatory to proceed.\n9. One account per person. \n10. Payment is processed every month."
+        android:textColor="@color/black"
+        tools:ignore="HardcodedText" />
+
+</LinearLayout>

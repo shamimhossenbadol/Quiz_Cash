@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Quiz Cash</string>
+    <string name="todo">TODO</string>
+    <string name="interstitialAds">ca-app-pub-3940256099942544/1033173712</string>
+    <string name="rewardedAds">ca-app-pub-3940256099942544/5224354917</string>
+    <string name="bannerAds">ca-app-pub-3940256099942544/6300978111</string>
+
+    <string name="sign_up"><u>Sign Up</u></string>
+    <string name="log_in"><u>Log In</u></string>
+    <string name="forget_password"><u> Forget Password? </u></string>
+</resources>
